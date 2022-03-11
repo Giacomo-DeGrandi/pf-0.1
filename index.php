@@ -17,10 +17,22 @@
  header
 </header>
 
-<h1 >my index, your infos</h1>
-
 <main>
-    <h1><?= $_SERVER['HTTP_USER_AGENT'] . "\n\n" ?></h1>
+    <h1 >my index: <br> your infos</h1><br>
+
+    <h2><?= $_SERVER['HTTP_USER_AGENT'] . "\n\n"; ?></h2><br>
+
+    <h1> your cookies </h1>
+    <h2>
+        <?php
+        if(true){
+          if(isset($_COOKIE)){
+            print_r($_COOKIE);
+          }
+        }
+        ?>
+    </h2>
+
 </main>
 <footer>
 footer
