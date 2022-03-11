@@ -1,3 +1,2 @@
 # cv-html
-mycv-html
- ... in progress ...
+first attempt to make a portfolio
