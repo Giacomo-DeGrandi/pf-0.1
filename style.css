@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500;800&display=swap');
+:root {
+    --fogra:#0A0A0A;
+    --fograr:rgba(10, 10, 10, 1);
+    --eerie:#141414;
+    --eerier:rgba(20, 20, 20,1);
+    --eerielight:#1F1F1F;
+    --darkgray:#292929;
+    --jet:#333333;
+    --dark: #120205;
+    --blue: #2C2525;
+    --lightblue:#02A6E2;
+    --celtiblue:#266DD3;
+    --lavender:#E1E5F2;
+    --white:#FFFFFF;
+    --darkred:#B4182B;
+    --medpurple:#A369EB;;
+    --arimo: 'Work Sans', sans-serif;
+    --shad:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    --textshad1:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    --textshad2:rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+body {
+    background-color: black;
+}
+*{
+    font-family:var(--arimo);
+}
+a {
+    color: var(--white);
+    text-decoration:none;
+    font-weight: lighter;
+}
+a:hover {
+
+}
+.shad {
+    box-shadow: var(--shad);
+}
+.eerie {
+    background-color: var(--eerie);
+}
+.d-none {
+    display:none;
+}
+.display-5{
+    text-shadow: var(--textshad2);
+}
+.display-6{
+    font-weight: 100;
+    color: var(--white);
+    text-align: center;
+}
+.back-pic {
+    background-image: url("https://res.cloudinary.com/dgtrees/image/upload/v1649109025/0b1765ed-b986-4742-a1f3-12c360bc589e_rboei4.png");
+    max-height:30vh;
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: repeat;
+    border: solid 1px var(--eerie);
+    box-shadow:var(--shad);
+    filter: drop-shadow(0.5px 0.5px 0.5px var(--eerielight)) invert(0.2%);
+}
+.back-pic2 {
+    background-image: url("https://res.cloudinary.com/dgtrees/image/upload/v1649142578/fivee_na4ivh.png");
+    max-height:30vh;
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: repeat;
+    border: solid 1px var(--eerie);
+    box-shadow:var(--shad);
+    filter: drop-shadow(0.5px 0.5px 0.5px var(--eerielight)) invert(0.2%);
+}
+.back-pic3 {
+    background-image: url("https://res.cloudinary.com/dgtrees/image/upload/v1649142808/sixy_eo3qj7.png");
+    max-height:30vh;
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: repeat;
+    border: solid 1px var(--eerie);
+    box-shadow:var(--shad);
+    filter: drop-shadow(0.5px 0.5px 0.5px var(--eerielight)) invert(0.2%);
+}
+.mycard {
+    color:var(--white);
+    background-color:black;
+    box-shadow:var(--shad);
+}
+.bordererie {
+    border: solid 0.2px var(--celtiblue);
+}
+.bordred {
+    border: solid 0.2px var(--medpurple);
+}
+button[type="submit"] {
+    color: var(--white);
+    border:solid 0.2px var(--celtiblue);
+    border-radius:25px;
+    text-align:center;
+    font-weight: lighter;
+    font-size:0.8em;
+    background-color: black;
+    box-shadow: var(--shad);
+}

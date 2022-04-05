@@ -1,41 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Divers/bootstrap-5.0.2-dist/css/bootstrap.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-    <title>pf-0.01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>g_de_grandi</title>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header >
- header
+<body>
+<header>
+    <nav class="d-flex flex-column">
+        <div class="d-flex flex-row bordererie">
+            <div class="col p-2"><a href="">ABOUT</a></div>
+            <div class="col p-2"><a href="">PROJECTS</a></div>
+            <div class="col p-2"><a href="">BLOG</a></div>
+            <div class="col p-2"><a href="">CONTACTS</a></div>
+        </div>
+    </nav>
 </header>
 
 <main>
-    <h1 >my index: <br> your infos</h1><br>
 
-    <h2><?= $_SERVER['HTTP_USER_AGENT'] . "\n\n"; ?></h2><br>
+    <div class="container-fluid p-2">
 
-    <h1> your cookies </h1>
-    <h2>
-        <?php
-        if(true){
-          if(isset($_COOKIE)){
-            print_r($_COOKIE);
-          }
-        }
-        ?>
-    </h2>
+        <div class="back-pic bordred">
+            <div class="row p-3">
+                <div class="mycard bordererie p-2 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="display-5 mono ">GIACOMO DE GRANDI</p>
+                        <button type="submit" class="bordererie mt-2">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-pic2 bordred">
+            <div class="row p-3">
+                <div class="mycard bordererie p-2 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="display-5 mono ">ABOUT</p>
+                        <button type="submit" class="bordererie mt-2">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-pic3 bordred">
+            <div class="row p-3">
+                <div class="mycard bordererie p-2 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="display-5 mono ">BLOG</p>
+                        <button type="submit" class="bordererie mt-2">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-pic bordred">
+            <div class="row p-3">
+                <div class="mycard bordererie p-2 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="display-5 mono ">MY PROJECTS</p>
+                        <button type="submit" class="bordererie mt-2">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-pic2 bordred">
+            <div class="row p-3">
+                <div class="mycard bordererie p-2 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="display-5 mono ">CONTACTS</p>
+                        <button type="submit" class="bordererie mt-2">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </main>
 <footer>
-footer
-</footer>
 
+</footer>
+</body>
 </html>
