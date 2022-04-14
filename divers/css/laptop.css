@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,100&display=swap');
+
+:root {
+    --fogra:#0A0A0A;
+    --fograr:rgba(10, 10, 10, 1);
+    --eerie:#141414;
+    --eerier:rgba(20, 20, 20,1);
+    --eerielight:#1F1F1F;
+    --darkgray:#292929;
+    --jet:#333333;
+    --dark: #120205;
+    --blue: #2C2525;
+    --lightblue:#02A6E2;
+    --celtiblue:#266DD3;
+    --lavender:#E1E5F2;
+    --white:#FFFFFF;
+    --darkred:#B4182B;
+    --medpurple:#A369EB;;
+    --kanit: 'Kanit', sans-serif;
+    --shad:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    --textshad1:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    --textshad2:rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+/* COMMUNAL */
+
+body {
+    background-color: white;
+}
+*{
+    font-family:var(--kanit);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: var(--medpurple);
+}
+
+::selection {
+    color: white;
+    background: var(--medpurple);
+}
+
+a {
+    color: var(--black);
+    text-decoration:none;
+    font-weight: 500;
+}
+a:hover {
+
+}
+
+button[type="submit"]{
+    border:none;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+}
+
+/*  TYPOS  */
+
+body > main > div > div > div > div > div.row.display-5.p-4 > p {
+    text-align: justify;
+}
+
+.mybolder{
+    font-weight:900;
+}
+
+.display-7{
+    font-size:1.2em;
+}
+
+
+/* PICS   */
+
+.logos {
+    width: 48px;
+    height: 48px;
+}
+
+.rounded-4{
+    border-radius:10px;
+}
+
+
+.plat-blue{
+    background-color: var(--celtiblue)!important;
+    border-radius: 20%!important;
+}
+
+/* HEADER  */
+
+/* HEADER MENU */
+
+.burg {
+    display:none;
+}
+
+/* DISPLAYS addons */
