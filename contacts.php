@@ -21,6 +21,10 @@ require_once('Controller/contacts_controller.php');
                 </p>
                 <a href="mailto:carlo.de-grandi-giacomo@laplateforme.io" class="me-2"> Me contacter</a>
             </div>
+            <div class="row h2 p-4">
+                <a href="Giacomo-De-Grandi-CV.pdf" download="Giacomo-De-Grandi-CV.pdf">Telecharger mon CV</a>
+            </div>
+            <br>
         </div>
     </div>
 <?php

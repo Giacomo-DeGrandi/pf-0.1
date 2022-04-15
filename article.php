@@ -15,8 +15,9 @@ ob_start();
                 <div class="d-flex flex-column align-items-center justify-content-center w-100">
                     <img src="<?php echo $one_art[0]['image_url']  ?>" alt="" class="w-50">
                 </div>
-                <p class="h6 text-muted text-end"><?php echo $one_art[0]['author']  ?>
+                <p class="h6 text-muted text-end"><?php echo $one_art[0]['author']  ?><br>
                 <span class="small"><?php echo $one_art[0]['date']  ?></span>
+                    <a href="<?php echo $one_art[0]['link_art']  ?>" alt=""><?php echo $one_art[0]['link_art']  ?></a>
                 </p><br>
                 <p class="big"><?php  echo $one_art[0]['article']  ?></p>
             <?php endif; ?>

@@ -53,6 +53,12 @@ ob_start();
                         <li> Modélisation de base de données </li>
                     </ul>
                 </div>
+                <br><br>
+
+                <div class="row h2 p-4">
+                    <a href="Giacomo-De-Grandi-CV.pdf" download="Giacomo-De-Grandi-CV.pdf">Telecharger mon CV</a>
+                </div>
+                <br>
 
             </div>
         </div>
